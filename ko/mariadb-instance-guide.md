@@ -49,7 +49,7 @@ Enter password:
 
 #### 1\. 비밀번호 설정
 
-초기 설치 후 MariaDB root 계정 비밀번호는 지정되어 있지 않습니다. 그러므로 설치 후 반드시 비밀번호를 설정>해야 합니다.
+초기 설치 후 MariaDB root 계정 비밀번호는 지정되어 있지 않습니다. 그러므로 설치 후 반드시 비밀번호를 설정해야 합니다.
 
 ```
 SET PASSWORD [FOR user] = password_option
