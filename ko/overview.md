@@ -2,8 +2,18 @@
 
 MariaDB가 설치된 가상 서버를 제공하는 서비스입니다. MariaDB 버전, CPU, 메모리, 디스크를 선택하여 원하는 스펙의 MariaDB를 사용할 수 있습니다.
 
-## 기능
-- 애플리케이션 성능 및 확장성을 향상시키는 MariaDB 복제
-- 대형 데이터베이스 성능과 관리를 향상시키는 MariaDB 파티셔닝
-- 사용자 / 응용 프로그램 수준의 자원 소비 모니터링을위한 performance_schema db 제공
-- 메타 데이터에 쉽게 액세스 할 수 있는 information_schema db 제공
+### 주요 기능
+- MySQL과 높은 호환성을 유지하며, MySQL보다 가벼운 오픈소스 기반의 데이터베이스인 MariaDB를 설치하여 제공합니다.
+- 콘솔에서 간단한 설정 입력만으로 바로 서비스에 사용 가능한 MariaDB가 제공됩니다.
+- CentOS 서버를 발급받고 사용자가 바로 MariaDB를 사용할 수 있도록 인스턴스 생성 시 MariaDB가 설치된 상태로 제공합니다.
+- 사용자의 서비스에 맞는 서버를 선택할 수 있도록 다양한 인스턴스 스펙을 제공합니다.
+- 안정적으로 사용 가능한 버전인 MariaDB 10.3.31 버전을 제공합니다.
+
+### MariaDB vs MySQL
+- Compatibility: https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/
+- Features: https://mariadb.com/kb/en/mariadb-vs-mysql-features/
+
+### 서비스 대상
+- 구축 방법을 고민하지 않고 빠르게 서비스에 MariaDB를 투입하고 싶은 고객
+- MySQL에서 오픈 소스 기반 데이터베이스로의 전환을 고려중인 고객
+- 가벼우면서도 빠른 관계형 데이터베이스를 사용하고자 하는 고객
