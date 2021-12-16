@@ -9,7 +9,7 @@ MariaDB가 설치된 가상 서버를 제공하는 서비스입니다. MariaDB �
 - 사용자의 서비스에 맞는 서버를 선택할 수 있도록 다양한 인스턴스 타입을 제공합니다.
 - 안정적으로 사용 가능한 버전인 MariaDB 10.3.31 버전을 제공합니다.
 
-### MariaDB 와MySQL 비교
+### MariaDB와 MySQL 비교
 - 호환성: https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/
 - 기능: https://mariadb.com/kb/en/mariadb-vs-mysql-features/
 
