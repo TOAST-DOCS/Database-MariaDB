@@ -61,7 +61,7 @@ MariaDB> SET PASSWORD = PASSWORD('password');
 
 After initial installation, the port is 3306, which is MariaDB's default port. For security reasons, it is recommended to change the port.
 
-##### 1) Modify the `/etc/my.cnf.d/servfer.cnf` file
+##### 1) Modify the `/etc/my.cnf.d/server.cnf` file
 
 Open the `/etc/my.cnf.d/server.cnf` file and enter the port address to change under [mariadb] as follows.
 
