@@ -17,7 +17,7 @@ Connect to the instance using an SSH client and the configured key pair.
 For a detailed guide on SSH connection, refer to [SSH Connection Guide](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
 
 
-### How to Start/Stop MariaDB
+## How to Start/Stop MariaDB
 
 ``` sh
 # Start the MariaDB service
@@ -30,7 +30,7 @@ shell> sudo systemctl stop mariadb.service
 shell> sudo systemctl restart mariadb.service
 ```
 
-### Connect to MariaDB
+## Connect to MariaDB
 
 After creating an instance, initially connect to MariaDB as follows.
 
@@ -45,9 +45,9 @@ shell> mysql -u root -p
 Enter password:
 ```
 
-### Initial Setup After Creating a MariaDB Instance
+## Initial Setup After Creating a MariaDB Instance
 
-#### 1\. Set the Password
+### 1\. Set the Password
 
 After initial installation, the MariaDB root account password is not set. Therefore, you must set a password after installation.
 
@@ -57,11 +57,11 @@ SET PASSWORD [FOR user] = password_option
 MariaDB> SET PASSWORD = PASSWORD('password');
 ```
 
-#### 2\. Change the Port
+### 2\. Change the Port
 
 After initial installation, the port is 3306, which is MariaDB's default port. For security reasons, it is recommended to change the port.
 
-##### 1) Modify the `/etc/my.cnf.d/server.cnf` file
+#### 1) Modify the `/etc/my.cnf.d/server.cnf` file
 
 Open the `/etc/my.cnf.d/server.cnf` file and enter the port address to change under [mariadb] as follows.
 
@@ -74,7 +74,7 @@ shell> sudo vi /etc/my.cnf.d/server.cnf
 port=[port address to change]
 ```
 
-##### 2) Restart the instance
+#### 2) Restart the instance
 Restart the instance for the port change to take effect.
 ```
 sudo systemctl restart mariadb.service
