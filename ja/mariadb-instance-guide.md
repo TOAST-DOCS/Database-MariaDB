@@ -7,14 +7,14 @@ MariaDBを使用するには、まずインスタンスを作成する必要が�
 ![image2](http://static.toastoven.net/prod_mariadb_instance/image2.jpg)
 MariaDBイメージを選択し、追加設定を完了してインスタンスを作成します。
 
-インスタンス作成の詳細については[Instance概要](https://docs.toast.com/ko/Compute/Instance/ko/overview/)を参照してください。
+インスタンス作成の詳細については[Instance概要](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)を参照してください。
 
 インスタンスの作成が完了したらSSHを使用してインスタンスにアクセスします。
 インスタンスにFloating IPが接続されていて、セキュリティグループでTCPポート22(SSH)が許可されている必要があります。
 
 ![image3](http://static.toastoven.net/prod_mariadb_instance/image3.jpg)
 SSHクライアントと設定したキーペアを利用してインスタンスに接続します。 
-SSH接続の詳細については[SSH接続ガイド](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)を参照してください。
+SSH接続の詳細については[SSH接続ガイド](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#linux)を参照してください。
 
 
 ### MariaDB 起動/停止方法

@@ -7,14 +7,14 @@ Click the **Create** button in **Create MariaDB Instance** to go to **Compute > 
 ![image2](http://static.toastoven.net/prod_mariadb_instance/image2.jpg)
 Choose a MariaDB image and complete additional setup to create an instance.
 
-For more information on instance creation, see [Instance Overview](https://docs.toast.com/en/Compute/Instance/en/overview/).
+For more information on instance creation, see [Instance Overview](https://docs.nhncloud.com/en/Compute/Instance/en/overview/).
 
 After the instance creation is complete, use SSH to access the instance.
 The instance must have an associated floating IP and TCP port 22 (SSH) must be allowed in the security group.
 
 ![image3](http://static.toastoven.net/prod_mariadb_instance/image3.jpg)
 Connect to the instance using an SSH client and the configured key pair.
-For a detailed guide on SSH connection, refer to [SSH Connection Guide](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
+For a detailed guide on SSH connection, refer to [SSH Connection Guide](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
 
 
 ## How to Start/Stop MariaDB
